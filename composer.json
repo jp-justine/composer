@@ -1,11 +1,14 @@
 {
     "name": "ellee/composer",
-    "description": "projet quete composer",
     "authors": [
         {
             "name": "jp-justine",
             "email": "jp.justine.petit@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"src/"}
+    },
     "require": {}
 }
